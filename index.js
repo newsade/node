@@ -14,6 +14,10 @@ app.get('',(req,res)=>{
     res.sendFile(__dirname+"/Home.html");
 });
 
+app.get('/Home',(req,res)=>{
+    res.sendFile(__dirname+"/Home.html");
+});
+
 app.get('/about',(req,res)=>{
     res.sendFile(__dirname+"/about.html");
 });
